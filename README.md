@@ -9,11 +9,15 @@ Comparing the cities I like the most in the US considering their employment rate
 
 Notice from this graph that the best choices are Pittsburgh and Boston since they have a high employment rate and a high income.
 
-![]
+![] https://github.com/GuillermoAlcocerDelano/What-City-Should-I-Move-To/blob/master/Earnings%20and%20employment%20graph.png
+
 
 
 
 ## Sources 
+
+The data was retrieved on February 10th, 2020 from https://www.opportunityatlas.org/
+
 
 
 
