@@ -1,5 +1,6 @@
 # What-City-Should-I-Move-To
-Comparing the cities I like the most in the US considering their employment rate and the earning I would have. For earning I have considered it as the income minus the median rent.
+Comparing the cities I like the most in the US considering their employment rate and the earning I would have. For earning I have considered it as the income minus the median rent. I have used earnings instead of the actual salary sinec the cost of living in each city is different, therefore this is a way to offset the increase in costs of living in an expensive city. 
+I have done two different graphs, one via Excel and another via Python. The python approach was using the raw data of Excel and creating the new columns directly in the pandas dataframe.
 
 ## Assumptions
     All other costs are the same in every city
@@ -12,7 +13,7 @@ Notice from this graph that the best choices are Pittsburgh and Boston since the
 
 <img src= https://github.com/GuillermoAlcocerDelano/What-City-Should-I-Move-To/blob/master/Earnings_and_employment_graph.png />
 
-## Methodology
+## Methodology in Excel
 1. I retrieved data that indicated the following (one file for each KPI)
     -Median Income per city
     -Average rent per city
@@ -30,6 +31,11 @@ Notice from this graph that the best choices are Pittsburgh and Boston since the
     
 6. I edited the graph to use a secondary axes for percentages, which would then be indicated as a line.
 
+## Adjustments for Python
+    - The earnings were converted into a percentage, that is, instead of net income - rent. I converted it to (Net Income - Rent)/ (Net income). This represents the % of your salary that is an earning. The reason to do this was to use two variables that use percentages. Additionaly, since the original (Excel) graph had very similar results for some cities, I wanted to change the graph to one where results would differ more from one to the other.
+    - The grapgh used is a scatter plot where each city has a different color where X is the employment rate and Y the Earnings%
+    
+    
 
 ## Sources 
 
