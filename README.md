@@ -35,7 +35,7 @@ Notice from this graph that the best choices are Pittsburgh and Boston since the
     - The earnings were converted into a percentage, that is, instead of net income - rent. I converted it to (Net Income - Rent)/ (Net income). This represents the % of your salary that is an earning. The reason to do this was to use two variables that use percentages. Additionaly, since the original (Excel) graph had very similar results for some cities, I wanted to change the graph to one where results would differ more from one to the other.
     - The grapgh used is a scatter plot where each city has a different color where X is the employment rate and Y the Earnings%
     
-    
+ 
 
 ## Sources 
 
