@@ -33,9 +33,11 @@ Notice from this graph that the best choices are Pittsburgh and Boston since the
 
 ## Adjustments for Python
     - The earnings were converted into a percentage, that is, instead of net income - rent. I converted it to (Net Income - Rent)/ (Net income). This represents the % of your salary that is an earning. The reason to do this was to use two variables that use percentages. Additionaly, since the original (Excel) graph had very similar results for some cities, I wanted to change the graph to one where results would differ more from one to the other.
-    - The grapgh used is a scatter plot where each city has a different color where X is the employment rate and Y the Earnings%
-    
+    - The grapgh used is a scatter plot where each city has a different color where X is the Earnings%  and Y the employment rate    
+ ### Second analysis
+ As we can see in the graph, now the cities are much more apart from each other and Pittsburgh is evidently the best.  Consider that in this grapgh the ideal value is the upright corner, and the worst value is the lower left corner.
  
+<img src= https://github.com/GuillermoAlcocerDelano/What-City-Should-I-Move-To/blob/master/Earningsvsemployment.svg>
 
 ## Sources 
 
